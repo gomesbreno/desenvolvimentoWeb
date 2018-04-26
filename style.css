@@ -1,0 +1,114 @@
+ul{
+    color: white;
+}
+
+
+.box{
+    width: 100%;
+    height: 100%;    
+    color: white;
+    background-color: #17C585DD;
+}
+
+.box-menus{
+    width: 100%;
+    height: 100%;    
+    color: white;
+    background-color: #17C585DD;
+    border-radius: 5px;
+}
+
+#form-box{
+    width: 100%;
+    height: 100%;    
+    color: white;
+    background-color: gray;
+}
+
+.viewer{
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;     
+}
+
+#mySection1{
+    background-image: url("p01-1.png");
+}
+
+#mySection2{
+    background-image: url("p02-1.png");
+}
+
+#mySection3{
+    background-image: url("p03-1.png");
+}
+
+#mySection4{
+    background-image: url("p04-1.png");
+}
+
+#mySection5{
+    background-image: url("p05-1.png");
+}
+
+#mySection6{
+    background-image: url("p06-1.png");
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    p{
+        font-size: 20px !important;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    p{
+        font-size: 20px !important;
+    }
+
+    h1{
+        font-size: 20px !important;        
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    p{
+        font-size: 20px !important;
+    }
+
+    h1{
+        font-size: 20px !important;        
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    p{
+        font-size: 20px !important;
+    }
+
+    h1{
+        font-size: 20px !important;        
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    p{
+        font-size: 13px !important;
+    }
+
+    h1{
+        font-size: 15px !important;        
+    }    
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+     background: #fff !important; 
+    }
